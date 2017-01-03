@@ -10,7 +10,7 @@ package def.angularjs.ng;
 public abstract class IFilterService extends def.js.Object {
     native public IFilterFilter apply(def.angularjs.ng.StringTypes.filter name);
     native public IFilterCurrency apply(def.angularjs.ng.StringTypes.currency name);
-    native public IFilterNumber apply(def.angularjs.ng.StringTypes.number name);
+    native public IFilterNumber apply(def.angularjs.ng.StringTypes._number name);
     native public IFilterDate apply(def.angularjs.ng.StringTypes.date name);
     native public IFilterJson apply(def.angularjs.ng.StringTypes.json name);
     native public IFilterLowercase apply(def.angularjs.ng.StringTypes.lowercase name);

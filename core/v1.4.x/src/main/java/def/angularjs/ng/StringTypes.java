@@ -31,14 +31,14 @@ public interface StringTypes {
  * @exclude
  */
     @jsweet.lang.StringType
-    public interface number {
+    public interface _number {
     }
     /**
  * Generated to type the string "number".
  * @exclude
  */
-    @jsweet.lang.StringType
-    public static def.angularjs.ng.StringTypes.number number=null;
+    @jsweet.lang.StringType("number")
+    public static def.angularjs.ng.StringTypes._number _number=null;
     /**
  * Generated to type the string "date".
  * @exclude
