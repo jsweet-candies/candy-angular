@@ -1,4 +1,4 @@
-package def.angular.legacy.ng.route;
+package def.angularjs.ng.route;
 @jsweet.lang.Interface
 public abstract class IRouteService extends def.js.Object {
     /**

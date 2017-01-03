@@ -1,4 +1,4 @@
-package def.angular.legacy.ng.route;
+package def.angularjs.ng.route;
 /**
      * see https://code.angularjs.org/1.2.26/docs/api/ngRoute/provider/$routeProvider#when for API documentation
      */

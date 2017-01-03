@@ -1,5 +1,5 @@
-package def.angular.legacy.ng.route;
-import def.angular.legacy.ng.IScope;
+package def.angularjs.ng.route;
+import def.angularjs.ng.IScope;
 @jsweet.lang.Interface
 public abstract class ICurrentRoute extends IRoute {
     public Locals locals;

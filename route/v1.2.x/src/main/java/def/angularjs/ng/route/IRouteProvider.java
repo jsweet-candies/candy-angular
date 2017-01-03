@@ -1,5 +1,5 @@
-package def.angular.legacy.ng.route;
-import def.angular.legacy.ng.IServiceProvider;
+package def.angularjs.ng.route;
+import def.angularjs.ng.IServiceProvider;
 @jsweet.lang.Interface
 public abstract class IRouteProvider extends IServiceProvider {
     /**
