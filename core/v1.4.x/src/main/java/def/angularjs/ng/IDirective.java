@@ -3,8 +3,6 @@ import def.js.Function;
 @jsweet.lang.Interface
 public abstract class IDirective extends def.js.Object {
     @jsweet.lang.Optional
-    public IDirectiveCompileFn compile;
-    @jsweet.lang.Optional
     public Object controller;
     @jsweet.lang.Optional
     public String controllerAs;
@@ -34,6 +32,7 @@ public abstract class IDirective extends def.js.Object {
     public Boolean terminal;
     @jsweet.lang.Optional
     public Object transclude;
-    native public def.angularjs.ng.IDirectivePrePost compile(def.angularjs.ng.IAugmentedJQuery templateElement, def.angularjs.ng.IAttributes templateAttributes, def.angularjs.ng.ITranscludeFunction transclude);
+    
+    native public IDirectivePrePost compile(IAugmentedJQuery templateElement, IAttributes templateAttributes, ITranscludeFunction transclude);
 }
 
