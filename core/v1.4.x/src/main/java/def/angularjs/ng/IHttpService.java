@@ -8,7 +8,7 @@ public abstract class IHttpService extends def.js.Object {
     /**
          * Object describing the request to be made and how it should be processed.
          */
-    native public <T> IHttpPromise<T> apply(IRequestConfig config);
+    native public <T> IHttpPromise<T> $apply(IRequestConfig config);
     /**
          * Shortcut method to perform GET request.
          *

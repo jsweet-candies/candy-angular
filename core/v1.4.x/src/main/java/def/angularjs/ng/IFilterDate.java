@@ -9,7 +9,7 @@ public interface IFilterDate {
          * @param timezone Timezone to be used for formatting. It understands UTC/GMT and the continental US time zone abbreviations, but for general use, use a time zone offset, for example, '+0430' (4 hours, 30 minutes east of the Greenwich meridian) If not specified, the timezone of the browser will be used.
          * @return Formatted string or the input if input is not recognized as date/millis.
          */
-    public String apply(Date date, String format, String timezone);
+    public String $apply(Date date, String format, String timezone);
     /**
          * Formats date to a string based on the requested format.
          *
@@ -18,7 +18,7 @@ public interface IFilterDate {
          * @param timezone Timezone to be used for formatting. It understands UTC/GMT and the continental US time zone abbreviations, but for general use, use a time zone offset, for example, '+0430' (4 hours, 30 minutes east of the Greenwich meridian) If not specified, the timezone of the browser will be used.
          * @return Formatted string or the input if input is not recognized as date/millis.
          */
-    public String apply(Date date, String format);
+    public String $apply(Date date, String format);
     /**
          * Formats date to a string based on the requested format.
          *
@@ -27,7 +27,7 @@ public interface IFilterDate {
          * @param timezone Timezone to be used for formatting. It understands UTC/GMT and the continental US time zone abbreviations, but for general use, use a time zone offset, for example, '+0430' (4 hours, 30 minutes east of the Greenwich meridian) If not specified, the timezone of the browser will be used.
          * @return Formatted string or the input if input is not recognized as date/millis.
          */
-    public String apply(Date date);
+    public String $apply(Date date);
     /**
          * Formats date to a string based on the requested format.
          *
@@ -36,7 +36,7 @@ public interface IFilterDate {
          * @param timezone Timezone to be used for formatting. It understands UTC/GMT and the continental US time zone abbreviations, but for general use, use a time zone offset, for example, '+0430' (4 hours, 30 minutes east of the Greenwich meridian) If not specified, the timezone of the browser will be used.
          * @return Formatted string or the input if input is not recognized as date/millis.
          */
-    public String apply(double date, String format, String timezone);
+    public String $apply(double date, String format, String timezone);
     /**
          * Formats date to a string based on the requested format.
          *
@@ -45,7 +45,7 @@ public interface IFilterDate {
          * @param timezone Timezone to be used for formatting. It understands UTC/GMT and the continental US time zone abbreviations, but for general use, use a time zone offset, for example, '+0430' (4 hours, 30 minutes east of the Greenwich meridian) If not specified, the timezone of the browser will be used.
          * @return Formatted string or the input if input is not recognized as date/millis.
          */
-    public String apply(String date, String format, String timezone);
+    public String $apply(String date, String format, String timezone);
     /**
          * Formats date to a string based on the requested format.
          *
@@ -54,7 +54,7 @@ public interface IFilterDate {
          * @param timezone Timezone to be used for formatting. It understands UTC/GMT and the continental US time zone abbreviations, but for general use, use a time zone offset, for example, '+0430' (4 hours, 30 minutes east of the Greenwich meridian) If not specified, the timezone of the browser will be used.
          * @return Formatted string or the input if input is not recognized as date/millis.
          */
-    public String apply(double date, String format);
+    public String $apply(double date, String format);
     /**
          * Formats date to a string based on the requested format.
          *
@@ -63,7 +63,7 @@ public interface IFilterDate {
          * @param timezone Timezone to be used for formatting. It understands UTC/GMT and the continental US time zone abbreviations, but for general use, use a time zone offset, for example, '+0430' (4 hours, 30 minutes east of the Greenwich meridian) If not specified, the timezone of the browser will be used.
          * @return Formatted string or the input if input is not recognized as date/millis.
          */
-    public String apply(String date, String format);
+    public String $apply(String date, String format);
     /**
          * Formats date to a string based on the requested format.
          *
@@ -72,7 +72,7 @@ public interface IFilterDate {
          * @param timezone Timezone to be used for formatting. It understands UTC/GMT and the continental US time zone abbreviations, but for general use, use a time zone offset, for example, '+0430' (4 hours, 30 minutes east of the Greenwich meridian) If not specified, the timezone of the browser will be used.
          * @return Formatted string or the input if input is not recognized as date/millis.
          */
-    public String apply(String date);
+    public String $apply(String date);
     /**
          * Formats date to a string based on the requested format.
          *
@@ -81,6 +81,6 @@ public interface IFilterDate {
          * @param timezone Timezone to be used for formatting. It understands UTC/GMT and the continental US time zone abbreviations, but for general use, use a time zone offset, for example, '+0430' (4 hours, 30 minutes east of the Greenwich meridian) If not specified, the timezone of the browser will be used.
          * @return Formatted string or the input if input is not recognized as date/millis.
          */
-    public String apply(double date);
+    public String $apply(double date);
 }
 

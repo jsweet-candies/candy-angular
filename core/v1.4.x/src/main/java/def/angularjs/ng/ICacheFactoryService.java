@@ -16,7 +16,7 @@ public abstract class ICacheFactoryService extends def.js.Object {
          *
          * capacity — turns the cache into LRU cache.
          */
-    native public ICacheObject apply(String cacheId, OptionsMap optionsMap);
+    native public ICacheObject $apply(String cacheId, OptionsMap optionsMap);
     /**
          * Get information about all the caches that have been created.
          * @returns key-value map of cacheId to the result of calling cache#info
@@ -42,6 +42,6 @@ public abstract class ICacheFactoryService extends def.js.Object {
          *
          * capacity — turns the cache into LRU cache.
          */
-    native public ICacheObject apply(String cacheId);
+    native public ICacheObject $apply(String cacheId);
 }
 

@@ -69,7 +69,7 @@ public abstract class IRootScopeService extends def.js.Object {
     /** This is an automatically generated object type (see the source definition). */
     @jsweet.lang.ObjectType
     public static class WatchExpressions extends def.js.Object {
-        native public Object apply(IScope scope);
+        native public Object $apply(IScope scope);
     }
     native public Object $eval(String expression);
     native public Object $eval(java.util.function.Function<IScope,Object> expression);

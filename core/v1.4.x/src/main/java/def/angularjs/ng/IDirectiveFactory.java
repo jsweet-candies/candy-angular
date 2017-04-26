@@ -1,5 +1,5 @@
 package def.angularjs.ng;
 public interface IDirectiveFactory {
-    public IDirective apply(Object... args);
+    public IDirective $apply(Object... args);
 }
 

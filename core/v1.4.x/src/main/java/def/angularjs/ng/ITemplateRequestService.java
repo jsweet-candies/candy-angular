@@ -20,7 +20,7 @@ public abstract class ITemplateRequestService extends def.js.Object {
          *
          * @return   A promise whose value is the template content.
          */
-    native public IPromise<String> apply(String tpl, Boolean ignoreRequestError);
+    native public IPromise<String> $apply(String tpl, Boolean ignoreRequestError);
     /**
          * total amount of pending template requests being downloaded.
          * @type {number}
@@ -41,6 +41,6 @@ public abstract class ITemplateRequestService extends def.js.Object {
          *
          * @return   A promise whose value is the template content.
          */
-    native public IPromise<String> apply(String tpl);
+    native public IPromise<String> $apply(String tpl);
 }
 

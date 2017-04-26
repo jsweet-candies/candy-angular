@@ -8,8 +8,8 @@ package def.angularjs.ng;
 public abstract class IQService extends def.js.Object {
     public <T> IQService(java.util.function.Function<IQResolveReject<T>,Object> resolver){}
     public <T> IQService(java.util.function.BiFunction<IQResolveReject<T>,IQResolveReject<?>,Object> resolver){}
-    native public <T> IPromise<T> apply(java.util.function.Function<IQResolveReject<T>,Object> resolver);
-    native public <T> IPromise<T> apply(java.util.function.BiFunction<IQResolveReject<T>,IQResolveReject<?>,Object> resolver);
+    native public <T> IPromise<T> $apply(java.util.function.Function<IQResolveReject<T>,Object> resolver);
+    native public <T> IPromise<T> $apply(java.util.function.BiFunction<IQResolveReject<T>,IQResolveReject<?>,Object> resolver);
     /**
          * Combines multiple promises into a single promise that is resolved when all of the input promises are resolved.
          *

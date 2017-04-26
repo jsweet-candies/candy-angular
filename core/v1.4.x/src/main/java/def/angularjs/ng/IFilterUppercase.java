@@ -3,6 +3,6 @@ public interface IFilterUppercase {
     /**
          * Converts string to uppercase.
          */
-    public String apply(String value);
+    public String $apply(String value);
 }
 

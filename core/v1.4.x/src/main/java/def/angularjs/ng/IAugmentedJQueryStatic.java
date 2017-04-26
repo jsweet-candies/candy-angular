@@ -11,14 +11,14 @@ import def.js.Function;
      */
 @jsweet.lang.Interface
 public abstract class IAugmentedJQueryStatic extends JQueryStatic {
-    native public IAugmentedJQuery apply(String selector, Object context);
-    native public IAugmentedJQuery apply(Element element);
-    native public IAugmentedJQuery apply(java.lang.Object object);
-    native public IAugmentedJQuery apply(Element[] elementArray);
-    native public IAugmentedJQuery apply(JQuery object);
-    native public IAugmentedJQuery apply(Function func);
-    native public IAugmentedJQuery apply(Object[] array);
-    native public IAugmentedJQuery apply();
-    native public IAugmentedJQuery apply(String selector);
+    native public IAugmentedJQuery $apply(String selector, Object context);
+    native public IAugmentedJQuery $apply(Element element);
+    native public IAugmentedJQuery $apply(java.lang.Object object);
+    native public IAugmentedJQuery $apply(Element[] elementArray);
+    native public IAugmentedJQuery $apply(JQuery object);
+    native public IAugmentedJQuery $apply(Function func);
+    native public IAugmentedJQuery $apply(Object[] array);
+    native public IAugmentedJQuery $apply();
+    native public IAugmentedJQuery $apply(String selector);
 }
 
