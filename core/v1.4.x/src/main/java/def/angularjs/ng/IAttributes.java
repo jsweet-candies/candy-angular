@@ -1,5 +1,6 @@
 package def.angularjs.ng;
 import def.js.Function;
+import def.js.String;
 @jsweet.lang.Interface
 public abstract class IAttributes extends def.js.Object {
     /**
@@ -28,10 +29,7 @@ public abstract class IAttributes extends def.js.Object {
          * the class removal.
          */
     native public void $removeClass(String classVal);
-    /**
-         * Set DOM element attribute value.
-         */
-    native public void $set(String key, Object value);
+    
     /**
          * Observes an interpolated attribute.
          * The observer function will be invoked once during the next $digest
