@@ -4,15 +4,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.jsweet.v3.candies</groupId>
 	<artifactId>angular</artifactId>
-	<version>1.4.0-20200915</version>
+	<version>1.4.0-20201211</version>
 	<properties>
-		<jsweet.transpiler.version>3.0.0-SNAPSHOT</jsweet.transpiler.version>
+		<jsweet.transpiler.version>3.0.0</jsweet.transpiler.version>
 		<jsweet.core.version>6.0.0</jsweet.core.version>
 
 		<timestamp>${maven.build.timestamp}</timestamp>
 		<maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss</maven.build.timestamp.format>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version.release>11</java.version.release>
+		<java.version.release>8</java.version.release>
 		<java.version>1.${java.version.release}</java.version>
 	</properties>
 	<repositories>
@@ -43,14 +43,14 @@
 	</pluginRepositories>
 	<dependencies>
 		<dependency>
-			<groupId>org.jsweet.v3</groupId>
+			<groupId>org.jsweet</groupId>
 			<artifactId>jsweet-core</artifactId>
 			<version>${jsweet.core.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.jsweet.v3.candies</groupId>
+			<groupId>org.jsweet.candies</groupId>
 			<artifactId>jquery</artifactId>
-			<version>1.10.0-20200915</version>
+			<version>1.10.0-20170726</version>
 		</dependency>
 
 	</dependencies>
